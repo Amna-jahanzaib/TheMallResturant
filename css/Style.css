@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: ibaFont;
+    src: url(css/Shonar.ttf);
+}
+
+body
+{
+margin: 0px 0px;
+ padding:0px 0px 0px 0px;
+    z-index:0;
+    
+    font-family: ibaFont;
+}
+
+.container{
+    
+    padding:0px 0px;
+}
+
+
+.row-content{
+    border: 2px solid black;
+  
+    margin: 20px 0px 0px 0px;
+   text-align: center;
+    color: black;
+    
+}
+.row-orders{
+    
+  border: 2px solid red;
+    margin-top: 4%;
+    margin-left: 0px;
+    margin-right: 0px;
+
+   text-align: center;
+    padding-left: 70px;
+    padding-top: 0px;
+    color: black;
+    
+    
+}
+.navbar 
+{
+    font-family: ibaFont;
+    font-weight: 600; 
+    color:#ff0000;
+     background: #fff;
+    margin-top:0px; 
+    margin-bottom: 0px;
+}
+
+.navbar li a{
+    
+    color:#ff0000;
+    font-size: 20px;
+    
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus 
+
+{
+    color: #fff;
+    background: #fff;
+}
+
+.input-group li  a,
+.input-group li  a:hover,
+.input-group> li  a:focus 
+
+{
+    color: #fff;
+    background: #fff;
+}
+
+.navbar-inverse .navbar-nav  > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus 
+{
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu 
+{
+    background-color: #303F9F;
+    color:#eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover 
+{
+    color:#000000;
+}
+
+.footer{
+    
+     background: black;
+    color: aliceblue;
+    
+}
